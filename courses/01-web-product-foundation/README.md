@@ -12,7 +12,23 @@
 - 2 часа самостоятельной лаборатории после каждого занятия;
 - итоговая сдача работающего продукта и проектных артефактов.
 
-Курс не обещает сделать участника профессиональным веб-разработчиком за три встречи. Он даёт воспроизводимый процесс: сформулировать идею, подготовить blueprint, поставить задачи агентам, проверить результат и выпустить первую версию.
+Курс не обещает сделать участника профессиональным веб-разработчиком за три встречи. Он даёт воспроизводимый процесс: сформулировать идею, подготовить blueprint, передать milestone руководителю, организовать автономную работу исполнителя, проверить доказательства и выпустить первую версию.
+
+### Основной паттерн
+
+```text
+Пользователь → milestone руководителю
+Руководитель → крупные рабочие пакеты исполнителям
+Исполнитель → автономная реализация и отчёт
+Руководитель → проверка, интеграция и финальная приёмка
+```
+
+Роль назначается простой командой в чате:
+
+- `Ты руководитель` — агент читает [`starter/roles/leader.md`](starter/roles/leader.md);
+- `Ты исполнитель` — агент читает [`starter/roles/executor.md`](starter/roles/executor.md).
+
+Маршрутизация и обязательные правила прописаны в [`starter/AGENTS.md`](starter/AGENTS.md).
 
 ### Итоговый продукт
 
@@ -56,7 +72,18 @@ In nine hours, the participant completes the full cycle of building a first web 
 - two hours of independent lab work after each session;
 - a final submission with a working product and verifiable project artifacts.
 
-The module does not promise professional web-development mastery in three meetings. It teaches a repeatable process: define the product, create a blueprint, delegate bounded tasks, verify the result, and release a first version.
+The module does not promise professional web-development mastery in three meetings. It teaches a repeatable process: define the product, create a blueprint, assign an entire milestone to the leader, delegate substantial work packages to executors, verify evidence, and release a first version.
+
+### Core operating pattern
+
+```text
+User → milestone to the leader
+Leader → substantial work packages to executors
+Executor → autonomous delivery and evidence report
+Leader → verification, integration, and final acceptance
+```
+
+Role routing is defined in [`starter/AGENTS.md`](starter/AGENTS.md), with canonical role instructions in [`starter/roles/leader.md`](starter/roles/leader.md) and [`starter/roles/executor.md`](starter/roles/executor.md). The working instructions themselves are written in Russian for the initial Russian-speaking audience.
 
 ### Final product
 
