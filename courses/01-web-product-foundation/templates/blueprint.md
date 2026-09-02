@@ -1,35 +1,35 @@
-# Product blueprint
+# Blueprint продукта
 
-## 1. Purpose
+## 1. Цель продукта
 
-## 2. Primary user
+## 2. Основной пользователь
 
-## 3. Problem
+## 3. Проблема пользователя
 
-## 4. Value proposition
+## 4. Предложение ценности
 
-## 5. Primary user journey
+## 5. Основной пользовательский сценарий
 
 ```text
-Entry → understanding → action → processing → confirmation
+Вход → понимание ценности → действие → обработка → подтверждение
 ```
 
-## 6. Page structure
+## 6. Структура страницы
 
-## 7. Required functionality
+## 7. Обязательная функциональность
 
-## 8. Data and integrations
+## 8. Данные и интеграции
 
-## 9. Content and evidence
+## 9. Контент и доказательства
 
-## 10. Constraints
+## 10. Ограничения
 
-## 11. Out of scope
+## 11. Что не входит в первую версию
 
-## 12. Assumptions to validate
+## 12. Предположения, которые необходимо проверить
 
-## 13. Risks
+## 13. Риски
 
-## 14. Definition of done
+## 14. Критерии готовности (`Definition of Done`)
 
-## 15. Open decisions
+## 15. Открытые решения
