@@ -1,41 +1,42 @@
-# Project operating rules
+# Правила работы в проекте
 
-## Goal
+## Цель
 
-Build the smallest working web product defined by the approved blueprint and acceptance criteria.
+Создать минимальный работающий веб-продукт, описанный в утверждённом blueprint и критериях приёмки.
 
-## Sources of truth
+## Источники истины
 
-1. The current Linear issue is the execution contract.
-2. Approved product documents live in the project documentation repository.
-3. This file defines stable working rules, not feature requirements.
+1. Текущая задача в Linear — контракт исполнения.
+2. Утверждённые продуктовые документы находятся в репозитории документации проекта.
+3. Этот файл содержит постоянные правила работы, а не требования к отдельным функциям.
 
-If the issue and blueprint conflict, stop and ask the Lead to resolve the conflict. Do not silently choose a broader scope.
+Если задача в Linear противоречит blueprint, остановись и попроси руководителя устранить противоречие. Не выбирай более широкий scope молча.
 
-## Roles
+## Роли
 
-- Lead plans, defines tasks, and accepts results. Lead does not write product code by default.
-- Builder implements one bounded issue and returns evidence.
-- Reviewer audits independently and does not fix its own findings.
+- **Руководитель (`lead`)** планирует работу, формулирует задачи и принимает результат. По умолчанию он не пишет продуктовый код.
+- **Исполнитель (`builder`)** реализует одну ограниченную задачу и возвращает доказательства результата.
+- **Аудитор (`reviewer`)** независимо проверяет работу и не исправляет собственные замечания.
 
-## Engineering rules
+## Инженерные правила
 
-- Make the smallest defensible change.
-- Do not modify unrelated files.
-- Never commit secrets, tokens, credentials, or real student/customer data.
-- Use environment variables and provide safe examples only.
-- Preserve existing architecture unless the issue explicitly changes it.
-- Add or update tests when behavior changes and tests are available.
-- Run the relevant lint, test, type-check, and build commands before reporting completion.
-- Do not claim a check passed unless you ran it and captured the result.
+- Делай минимальное обоснованное изменение.
+- Не меняй файлы, не связанные с текущей задачей.
+- Никогда не сохраняй секреты, токены, пароли и реальные персональные данные студентов или клиентов.
+- Используй переменные окружения и добавляй только безопасные примеры конфигурации.
+- Сохраняй существующую архитектуру, если задача прямо не требует её изменить.
+- При изменении поведения добавляй или обновляй тесты, когда в проекте есть тестовая инфраструктура.
+- Перед отчётом запускай относящиеся к задаче lint, тесты, type-check, build и проверку пользовательского сценария.
+- Не утверждай, что проверка пройдена, если она не была запущена и её результат не зафиксирован.
+- Не расширяй scope самостоятельно. Предложения по улучшению выноси отдельно и не реализуй без согласования.
 
-## Completion report
+## Отчёт о завершении
 
-Every implementation report must include:
+Каждый отчёт исполнителя должен содержать:
 
-1. summary;
-2. changed files;
-3. checks run and exact results;
-4. commit or PR;
-5. evidence of user-visible behavior;
-6. known limitations and blockers.
+1. краткое резюме результата;
+2. список изменённых файлов;
+3. запущенные проверки и их точные результаты;
+4. ссылку или идентификатор commit/PR;
+5. доказательства поведения, видимого пользователю;
+6. известные ограничения и блокеры.
