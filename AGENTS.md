@@ -1,27 +1,28 @@
-# Repository instructions
+# Инструкции для работы с репозиторием
 
-## Purpose
+## Назначение
 
-This repository contains public educational materials and reusable project starters for Dobrovola AI Native Lab.
+Этот репозиторий содержит публичные учебные материалы и переиспользуемые стартовые комплекты Dobrovola AI Native Lab.
 
-## Working rules
+## Правила работы
 
-- Keep the root `README.md` understandable to non-developers and maintain both Russian and English sections.
-- Keep shared methodology in `docs/` and course-specific material in `courses/<course-id>/`.
-- Each course must have a `README.md`, `START_HERE.md`, syllabus, prompts, templates, and a minimal starter when applicable.
-- Keep `AGENTS.md` concise. Put task-specific procedures into skills or course documents.
-- Distinguish proven examples from planned or hypothetical scenarios.
-- Do not add vendor-specific claims without checking current official documentation.
-- Never commit secrets, credentials, access tokens, student data, or private company materials.
-- Prefer small, reviewable changes. Preserve existing paths unless a migration is documented.
-- Use clear Markdown, relative internal links, and simple language.
+- Поддерживай корневой `README.md` понятным для людей без технической подготовки и сохраняй в нём русскую и английскую версии.
+- Общую методику храни в `docs/`, материалы конкретного курса — в `courses/<course-id>/`.
+- Каждый курс должен содержать `README.md`, `START_HERE.md`, программу, пакет промптов, шаблоны и минимальный starter, когда он необходим.
+- Не раздувай `AGENTS.md`. Процедуры для отдельных задач выноси в skills или документы курса.
+- Всегда отделяй доказанные примеры от планируемых и гипотетических сценариев.
+- Не добавляй утверждения о возможностях внешних платформ без проверки их актуальной официальной документации.
+- Никогда не сохраняй в репозитории секреты, учётные данные, токены доступа, данные студентов и закрытые материалы компаний.
+- Предпочитай небольшие изменения, которые легко проверить. Не меняй существующие пути без документированной миграции.
+- Используй понятный Markdown, относительные внутренние ссылки и простой язык.
+- Технические идентификаторы файлов, ролей и skills сохраняй стабильными, даже если поясняющий текст переведён на русский.
 
-## Definition of done
+## Критерии завершения
 
-A documentation change is complete when:
+Изменение документации считается завершённым, когда:
 
-1. internal links resolve;
-2. Russian and English root summaries remain consistent;
-3. course instructions state inputs, outputs, and acceptance criteria;
-4. examples do not expose secrets or personal data;
-5. the changed files are listed in the final report.
+1. внутренние ссылки работают;
+2. русское и английское описание репозитория не противоречат друг другу;
+3. в инструкциях курса явно указаны входные данные, ожидаемый результат и критерии приёмки;
+4. примеры не содержат секретов и персональных данных;
+5. в итоговом отчёте перечислены изменённые файлы.
