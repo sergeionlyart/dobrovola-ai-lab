@@ -1,33 +1,34 @@
-# Acceptance criteria
+# Критерии приёмки
 
-## Product clarity
+## Понятность продукта
 
-- [ ] The first screen states who the product is for and what value it offers.
-- [ ] There is one visually clear primary CTA.
-- [ ] Claims are supported or explicitly marked as assumptions.
+- [ ] На первом экране понятно, для кого создан продукт и какую ценность он предлагает.
+- [ ] На странице есть один визуально заметный основной призыв к действию.
+- [ ] Значимые утверждения подтверждены либо явно обозначены как предположения.
 
-## Core flow
+## Основной пользовательский сценарий
 
-- [ ] The user can open the form from the primary CTA.
-- [ ] Required fields are validated.
-- [ ] Invalid input produces a clear error.
-- [ ] Valid input reaches the configured handler.
-- [ ] The user receives a success confirmation.
-- [ ] The meeting-booking action is available after submission or as defined in the blueprint.
+- [ ] Пользователь может открыть форму через основной призыв к действию.
+- [ ] Обязательные поля проверяются.
+- [ ] При неверном вводе пользователь получает понятное сообщение об ошибке.
+- [ ] Корректно заполненная форма передаёт данные в настроенный обработчик.
+- [ ] После успешной отправки пользователь получает подтверждение.
+- [ ] Действие для записи на встречу доступно после отправки формы либо в другом месте, определённом blueprint.
 
-## Quality
+## Качество
 
-- [ ] The page works on a typical mobile viewport.
-- [ ] There are no known blocking console or build errors.
-- [ ] No secrets or credentials are committed.
-- [ ] The repository contains local run instructions.
-- [ ] The implementation matches the approved scope.
+- [ ] Страница работает на типичном мобильном экране.
+- [ ] Нет известных блокирующих ошибок сборки, выполнения или консоли.
+- [ ] В репозитории отсутствуют секреты и учётные данные.
+- [ ] В репозитории есть инструкция локального запуска.
+- [ ] Реализация соответствует утверждённому scope.
+- [ ] Изменения вне текущей задачи отсутствуют либо отдельно объяснены и согласованы.
 
-## Evidence
+## Доказательства
 
-- [ ] Production or preview URL.
-- [ ] Screenshot or short recording of the core flow.
-- [ ] Related Linear issue.
-- [ ] Commit or PR.
-- [ ] Test/build output.
-- [ ] Reviewer report.
+- [ ] Ссылка на production- или preview-версию.
+- [ ] Скриншот или короткая запись основного сценария.
+- [ ] Связанная задача в Linear.
+- [ ] Commit или PR.
+- [ ] Результаты тестов, сборки и других обязательных проверок.
+- [ ] Отчёт независимого аудитора.
