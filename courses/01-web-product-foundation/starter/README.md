@@ -1,8 +1,8 @@
-# Course starter
+# Стартовый комплект курса
 
-This directory contains project-scoped Codex instructions for the first course.
+Этот каталог содержит проектные настройки Codex для первого курса.
 
-The bootstrap agent copies the full contents of this directory into the student's development repository, including hidden directories:
+Bootstrap-агент копирует всё содержимое каталога в репозиторий разработки студента, включая скрытые директории:
 
 ```text
 AGENTS.md
@@ -11,6 +11,8 @@ AGENTS.md
 .agents/skills/
 ```
 
-The starter intentionally contains no application framework yet. Before the first cohort, the instructor must freeze a reference technology profile and add or link the matching application scaffold. Until then, this starter is suitable for methodology review and environment testing, not for a fully automated production build.
+Стартовый комплект пока намеренно не содержит каркас самого веб-приложения. До первого потока преподаватель должен выбрать и зафиксировать единый технологический профиль, а затем добавить сюда соответствующий scaffold или ссылку на него.
 
-Do not copy the `.git` directory of the public course repository.
+До этого момента starter подходит для проверки методики, ролей, skills и подготовки рабочей среды, но не для полностью автоматического создания готового сайта.
+
+Не копируй каталог `.git` из публичного репозитория курса в проект студента.
