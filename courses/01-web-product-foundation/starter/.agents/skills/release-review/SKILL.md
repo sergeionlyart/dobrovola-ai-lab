@@ -1,22 +1,41 @@
 ---
 name: release-review
-description: Audit a release candidate against its blueprint and acceptance criteria in read-only mode. Use before release; do not use to implement fixes.
+description: Провести независимый аудит кандидата в релиз по blueprint и критериям приёмки в режиме только чтения. Использовать перед публикацией; не использовать для исправления найденных дефектов.
 ---
 
-# Release review
+# Аудит релиза
 
-1. Read the blueprint, acceptance criteria, current release issue, and available evidence.
-2. Inspect the changed code and the running product when access is available.
-3. Check:
-   - the primary user flow;
-   - input validation and error states;
-   - mobile usability;
-   - build or console failures;
-   - accidental secrets or personal data;
-   - scope drift;
-   - missing tests or evidence;
-   - production configuration risks visible from the repository.
-4. Report findings as BLOCKER, HIGH, MEDIUM, or LOW.
-5. For each finding include location, observed behavior, expected behavior, reproduction, impact, and retest condition.
-6. End with one verdict: `RELEASE`, `RELEASE WITH KNOWN LOW RISKS`, or `DO NOT RELEASE`.
-7. Do not edit files or silently fix findings.
+## Цель
+
+Независимо проверить, можно ли публиковать текущую версию продукта и какие риски необходимо устранить до релиза.
+
+## Порядок работы
+
+1. Изучи blueprint, критерии приёмки, текущую задачу релиза и имеющиеся доказательства.
+2. Проверь изменённый код и запущенный продукт, если доступ к нему имеется.
+3. Проверь:
+   - основной пользовательский сценарий;
+   - валидацию ввода и состояния ошибок;
+   - удобство на мобильном экране;
+   - ошибки сборки, выполнения и консоли;
+   - случайно добавленные секреты и персональные данные;
+   - выход за утверждённый scope;
+   - отсутствие необходимых тестов или доказательств;
+   - риски production-конфигурации, которые видны из репозитория.
+4. Классифицируй замечания как `BLOCKER`, `HIGH`, `MEDIUM` или `LOW`.
+5. Для каждого замечания укажи:
+   - расположение проблемы;
+   - наблюдаемое поведение;
+   - ожидаемое поведение;
+   - способ воспроизведения;
+   - влияние;
+   - условие повторной проверки.
+6. Заверши аудит одним вердиктом:
+   - `RELEASE` — можно публиковать;
+   - `RELEASE WITH KNOWN LOW RISKS` — можно публиковать с явно зафиксированными низкими рисками;
+   - `DO NOT RELEASE` — публикация заблокирована.
+7. Не редактируй файлы и не исправляй найденные замечания самостоятельно.
+
+## Результат
+
+Верни отсортированный по серьёзности отчёт, итоговый вердикт и точный перечень условий, после которых требуется повторная проверка.
