@@ -1,17 +1,17 @@
-# Data map
+# Карта данных
 
-| Data field | Why collected | Required? | Destination | Retention | User notice |
+| Поле данных | Зачем собирается | Обязательно? | Куда передаётся | Срок хранения | Что сообщается пользователю |
 |---|---|---:|---|---|---|
-| Name |  |  |  |  |  |
-| Email or phone |  |  |  |  |  |
-| Message |  |  |  |  |  |
+| Имя |  |  |  |  |  |
+| Email или телефон |  |  |  |  |  |
+| Сообщение |  |  |  |  |  |
 
-## Data not collected
+## Данные, которые мы не собираем
 
-## External services
+## Внешние сервисы
 
-## Secrets and environment variables
+## Секреты и переменные окружения
 
-## Open privacy questions
+## Открытые вопросы по конфиденциальности
 
-This document is a project map, not legal advice. Final notices and policies require appropriate review for the actual business and jurisdiction.
+Этот документ описывает движение данных в проекте и не является юридической консультацией. Итоговые уведомления, согласия и политики должны быть проверены с учётом реального бизнеса и применимой юрисдикции.
