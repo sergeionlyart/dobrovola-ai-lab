@@ -1,22 +1,32 @@
 ---
 name: plan-milestone
-description: Plan one current milestone into a small set of bounded, verifiable tasks. Use for Lead planning; do not use to implement code or redesign the whole project.
+description: Спланировать один текущий milestone как небольшой набор ограниченных и проверяемых задач. Использовать руководителю для планирования; не использовать для написания кода или перепроектирования всего продукта.
 ---
 
-# Plan milestone
+# Планирование milestone
 
-1. Read the approved blueprint, acceptance criteria, current milestone, and known blockers.
-2. State the milestone outcome in one sentence.
-3. Propose no more than four tasks unless the human owner explicitly requests more.
-4. For every task provide:
-   - goal;
-   - in-scope work;
-   - excluded work;
-   - linked context;
-   - acceptance criteria;
-   - required checks and evidence;
-   - dependencies and blockers;
-   - Builder report format.
-5. Order tasks by dependency and identify the first executable task.
-6. Verify that the tasks produce one working vertical user flow rather than disconnected components.
-7. Return unresolved decisions separately. Do not hide assumptions inside tasks.
+## Цель
+
+Превратить один утверждённый milestone в исполнимый план, который приводит к наблюдаемому результату и не раздувает scope.
+
+## Порядок работы
+
+1. Изучи утверждённый blueprint, критерии приёмки, текущий milestone, состояние проекта и известные блокеры.
+2. Сформулируй результат milestone одним предложением.
+3. Предложи не более четырёх задач, если владелец проекта явно не попросил больше.
+4. Для каждой задачи укажи:
+   - цель;
+   - работу в scope;
+   - работу вне scope;
+   - связанные документы и контекст;
+   - проверяемые критерии приёмки;
+   - обязательные проверки и доказательства;
+   - зависимости и блокеры;
+   - формат отчёта исполнителя.
+5. Расположи задачи по зависимостям и назови первую задачу, которую можно выполнять прямо сейчас.
+6. Проверь, что совокупность задач создаёт один работающий вертикальный пользовательский сценарий, а не набор несвязанных компонентов.
+7. Нерешённые вопросы и допущения вынеси отдельно. Не прячь их внутри формулировок задач.
+
+## Результат
+
+Верни краткий план milestone, список задач, порядок выполнения, блокеры и решение о том, какая задача передаётся исполнителю первой.
