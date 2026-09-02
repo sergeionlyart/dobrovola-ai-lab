@@ -1,24 +1,34 @@
 ---
 name: deliver-issue
-description: Implement and verify one bounded project issue, then return evidence. Use for Builder execution; do not use for broad milestone planning or unrelated refactoring.
+description: Реализовать и проверить одну ограниченную задачу проекта, затем вернуть доказательства результата. Использовать исполнителю; не использовать для широкого планирования milestone или несвязанного рефакторинга.
 ---
 
-# Deliver issue
+# Выполнение задачи
 
-1. Read the assigned issue and linked product documents.
-2. Restate expected behavior and identify any blocking ambiguity before editing.
-3. Inspect the relevant code path and name the files likely to change.
-4. Implement the smallest defensible change within scope.
-5. Add or update focused tests when behavior changes and a test framework exists.
-6. Run the relevant lint, type-check, tests, build, and user-flow verification available in the project.
-7. Review the diff for unrelated changes and exposed secrets.
-8. Commit with a clear message or prepare a focused PR.
-9. Report:
-   - summary;
-   - changed files;
-   - checks and exact outcomes;
-   - commit/PR;
-   - user-visible evidence;
-   - known limitations and blockers.
+## Цель
 
-Never claim completion when a required check was skipped or failed.
+Завершить одну назначенную задачу в её утверждённых границах и предоставить проверяемые доказательства результата.
+
+## Порядок работы
+
+1. Прочитай назначенную задачу и связанные продуктовые документы.
+2. Кратко перескажи ожидаемое поведение и до начала редактирования укажи блокирующую неоднозначность, если она есть.
+3. Изучи относящийся к задаче участок кода и назови файлы, которые предположительно будут изменены.
+4. Реализуй минимальное обоснованное изменение в пределах scope.
+5. При изменении поведения добавь или обнови сфокусированные тесты, если в проекте есть тестовая инфраструктура.
+6. Запусти доступные и относящиеся к задаче проверки: lint, type-check, тесты, сборку и пользовательский сценарий.
+7. Просмотри diff и убедись, что в нём нет несвязанных изменений, секретов и персональных данных.
+8. Создай понятный commit или подготовь сфокусированный PR.
+9. Верни отчёт:
+   - краткое резюме;
+   - список изменённых файлов;
+   - запущенные проверки и их точные результаты;
+   - commit или PR;
+   - доказательства поведения, видимого пользователю;
+   - известные ограничения и блокеры.
+
+## Ограничения
+
+- Не расширяй scope самостоятельно.
+- Не исправляй несвязанные проблемы «заодно».
+- Не утверждай, что работа завершена, если обязательная проверка была пропущена или завершилась ошибкой.
