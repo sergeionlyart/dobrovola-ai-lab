@@ -1,54 +1,55 @@
-# Final submission
+# Итоговая сдача
 
-## Student and project
+## Студент и проект
 
-- **Student:**
-- **Project:**
-- **Date:**
+- **Студент:**
+- **Проект:**
+- **Дата:**
 
-## Product
+## Продукт
 
-- **Production URL:**
-- **Primary user:**
-- **Primary action:**
-- **Core flow:**
+- **Публичная ссылка:**
+- **Основной пользователь:**
+- **Целевое действие:**
+- **Основной пользовательский сценарий:**
 
-## Repositories
+## Репозитории
 
-- **Development repository:**
-- **Documentation repository:**
+- **Репозиторий разработки:**
+- **Репозиторий документации:**
 
-## Planning and delivery
+## Планирование и выполнение
 
-- **Linear project:**
+- **Проект в Linear:**
 - **Milestones:**
-- **Key issue:**
-- **Commit or PR:**
+- **Ключевая задача:**
+- **Commit или PR:**
 
-## Evidence
+## Доказательства
 
-- **Core-flow recording or screenshots:**
-- **Build/test result:**
-- **Reviewer report:**
-- **Secret scan or manual check:**
+- **Запись или скриншоты основного сценария:**
+- **Результаты сборки и тестов:**
+- **Отчёт аудитора:**
+- **Проверка на секреты:**
 
-## Independent change
+## Самостоятельное изменение
 
-- **What was changed:**
-- **Issue:**
-- **Commit/PR:**
-- **How it was verified:**
+- **Что было изменено:**
+- **Задача:**
+- **Commit или PR:**
+- **Как результат был проверен:**
 
-## Student reflection
+## Рефлексия студента
 
-1. What did the agent do?
-2. What decisions did I make?
-3. How did I verify the result?
-4. What remains outside version 1?
+1. Что сделал AI-агент?
+2. Какие решения принял я?
+3. Как я проверил результат?
+4. Что осталось за границами первой версии?
+5. Какой следующий шаг развития продукта я считаю обоснованным?
 
-## Final gate
+## Итоговые контрольные точки
 
-- [ ] `READY`
-- [ ] `SCOPE APPROVED`
-- [ ] `VERTICAL WORKS`
-- [ ] `RELEASED`
+- [ ] `READY` — рабочая среда подготовлена.
+- [ ] `SCOPE APPROVED` — границы проекта приняты.
+- [ ] `VERTICAL WORKS` — основной сценарий работает.
+- [ ] `RELEASED` — продукт проверен и опубликован.
